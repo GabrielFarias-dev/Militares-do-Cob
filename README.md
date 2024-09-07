@@ -1,4 +1,4 @@
-## Militares do COB: Seu guia completo para os bravos!
+## Militares do COB: Seu guia completo para os bravos- Imersão Dev com Google Gemini
 
 **O que é?**
 
