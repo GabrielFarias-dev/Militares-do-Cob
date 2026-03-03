@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.icon {
+    color: #121212;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px;
+    font-size: 35px;
+
+}
+
+body {
+    background-color: #4e4b4b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 83%, rgba(252, 176, 69, 1) 100%);
+height: 100vh;
+align-items: flex-start;
+    
+}
+.caixa1 {
+    background: #f6e8e8;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 50px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:2px solid #000;
+}
+.caixa2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.caixa2 .menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 28px;
+    list-style: none;
+}
+.caixa2 .menu a {
+    color: #333;
+}
+.caixa2 .menu a:hover {
+    color: #722d2d;
+    
+}
+.caixa2 .menu a.link-github:hover {
+    color: #070707;
+    transition-duration: 0.5s;
+    font-size: 50px;
+    
+}
+.caixa2 .menu a.link-linkedin:hover {
+    color: #2180b4;
+    transition-duration: 0.5s;
+    font-size: 50px;
+    
+}
+.caixa2 .menu a.link-instagram:hover {
+    color: #dd184f;
+    transition-duration: 0.5s;
+    font-size: 50px;
+    
+}
+.caixa2 .menu a.link-twitter:hover {
+    color: #0dc0d7;
+    transition-duration: 0.5s;
+    font-size: 50px;
+    
+}.caixa2 .menu a.link-youtube:hover {
+    color: #e51212;
+    transition-duration: 0.5s;
+    font-size: 50px;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main a {
+    display: flex;
+    background: #ddd;
+    justify-content: space-between;
+    padding: 15px 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+main a:hover {
+    background: #5a5a5a;
+}   
+footer {
+    display: flex;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+    gap: 15px;
+}
+footer i {
+    font-size: 45px;
+}
